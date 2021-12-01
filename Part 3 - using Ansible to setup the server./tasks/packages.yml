@@ -1,0 +1,13 @@
+---
+- name: install packages
+  apt:
+    name:
+      - apache2
+      - default-mysql-server
+      - python3-pymysql
+      - php
+      - php-mysql
+      - libapache2-mod-php
+      - ufw
+    state: present
+    cache_valid_time: 3600

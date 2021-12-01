@@ -1,0 +1,12 @@
+---
+
+- name: Allow SSH in the firewall
+  ufw:
+    rule: allow
+    name: OpenSSH
+
+- name: Open {{ http_port }} on firewall
+  ufw:
+    rule: allow
+    port: "{{ http_port }}"
+    proto: tcp

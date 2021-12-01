@@ -1,0 +1,32 @@
+---
+- hosts: all
+  become: true
+
+  pre_tasks:
+    - name: Config
+      include_vars: vars/defaults.yml
+
+    - name: apt cache update & Upgrade
+      import_tasks: tasks/pre.yml
+
+  tasks:
+    - name: install prereq packages
+      import_tasks: tasks/packages.yml
+
+    - name: setup apache2
+      import_tasks: tasks/apache.yml
+
+    - name: setup mysql server
+      import_tasks: tasks/mysql.yml
+
+    - name: enable firewall
+      import_tasks: tasks/ufw.yml
+
+  handlers:
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
+
+    - name: Reboot
+      reboot:

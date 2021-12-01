@@ -9,4 +9,6 @@ The first method is creating a LAMP stack by hand.
 * [Part 1 - setting up a LAMP server on Debian using a shell script](https://allotmentandy.github.io/blog/2021-12-01-AWS-Amazon-Web-Services-Cloud-computing-and-PHP)
 * [Part 2 - setting up Mysql](https://allotmentandy.github.io/blog/2021-12-01-AWS-Amazon-Web-Services-Cloud-computing-and-PHP-part2)
 
+The next method is using Ansible to setup the LAMP stack 
 
+* [Part 3 - setting up the LAMP stack with Ansible](https://allotmentandy.github.io/blog/2021-12-01-AWS-Amazon-Web-Services-Cloud-computing-and-PHP-part3-using-Ansible)
