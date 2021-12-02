@@ -1,16 +1,13 @@
-Using Terraform to setup an EC2 instance
+Using Terraform to setup an EC2 instance with an EIP elastic IP address 
 
-terraform init
+
+to run this use the following
+
+terraform init 
 
 terraform plan
 
 terraform apply
 
 
-errors
-
-1. key not found -
-ssh-keygen -f terraform-keys2
-
-
-
+NB: *terraform fmt* will format the code neatly.

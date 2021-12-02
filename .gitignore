@@ -1,4 +1,5 @@
 Part 4 - using terraform to create an EC2 instance/.terraform/
-Part 4 - using terraform to create an EC2 instance/terraform.tfstate
-Part 4 - using terraform to create an EC2 instance/terraform.tfstate.backup
-Part 4 - using terraform to create an EC2 instance/terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.lock.hcl
