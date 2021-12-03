@@ -81,15 +81,12 @@ data "aws_eip" "project-iac" {
   id = "eipalloc-07a144e8268e6616b"
 }
 
-
 resource "aws_eip_association" "my_eip_association" {
   instance_id   = aws_instance.project-iac.id
   allocation_id = data.aws_eip.project-iac.id
 
 }
 
-
 output "ec2instance" {
   value = aws_instance.project-iac.public_ip
 }
-
