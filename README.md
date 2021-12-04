@@ -15,6 +15,10 @@ The next method is using Ansible to setup the LAMP stack
 
 The next method is using Terraform to setup an EC2 Instance
 
-* [Part 4 - ](https://allotmentandy.github.io/blog/2021-12-02)
+* [Part 4](https://allotmentandy.github.io/blog/2021-12-02-AWS-Amazon-Web-Services-Instance-with-Terraform-and-an-Elastic-IP(Part-4))
 
-* Part 5 -
+Then I have made a docker container with an example app, pushed it to docker hub and installed it on the EC2 Instance
+
+* [Part 5](https://allotmentandy.github.io/blog/2021-12-03-AWS-Amazon-Web-Services-Laravel-in-Docker-on-EC2(Part-5)/)
+
+
