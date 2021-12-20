@@ -64,7 +64,7 @@ resource "aws_instance" "project-iac" {
   root_block_device {
     delete_on_termination = true
     iops                  = 150
-    volume_size           = 50
+    volume_size           = 29
     volume_type           = "gp3"
   }
   tags = {
